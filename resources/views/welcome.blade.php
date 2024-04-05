@@ -16,7 +16,8 @@
             <h1 class="text-3xl font-bold text-center mb-4">Welcome to Hello Laravel</h1>
             <p class="text-lg text-gray-700 mb-6 text-center">This is a cool project starter template for Laravel, styled with Tailwind CSS.</p>
             <div class="text-center">
-                <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Get Started</a>
+            <a href="{{ route('dashboard') }}" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Get Started</a>
+
             </div>
         </div>
     </div>
